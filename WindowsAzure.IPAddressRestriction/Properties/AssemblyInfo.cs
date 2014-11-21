@@ -5,10 +5,10 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WindowsAzure.IPAddressRestriction")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("WindowsAzure.IPAddressRestriction (2.4)")]
+[assembly: AssemblyDescription("Commontime Fork for azure SDK 2.4")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Commontime")]
 [assembly: AssemblyProduct("WindowsAzure.IPAddressRestriction")]
 [assembly: AssemblyCopyright("Copyright © Sandrino Di Mattia 2013")]
 [assembly: AssemblyTrademark("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.1.0.0")]
-[assembly: AssemblyFileVersion("1.1.0.0")]
+[assembly: AssemblyVersion("2.4.*")]
+[assembly: AssemblyFileVersion("2.4.*")]

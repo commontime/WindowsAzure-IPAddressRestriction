@@ -1,5 +1,8 @@
 #Windows Azure Cloud Services - IP Address Restrictions
 
+Updated to use azure SDK 2.4
+
+
 There are times that you might need restrict access to one or more endpoints of a Web/Worker Role. The **WindowsAzure.IPAddressRestriction** library allows you to do just that based on an IP address, IP address range or even a  hostname. It does this by making changes to the Windows Firewall on each instance.
 
 Each time an instance is provisioned or after a reboot the Fabric Controller will configure firewall rules on each instance. This means, if you configured an input endpoint on port 80, the Fabric Controller configure the firewall on all instances of that role in order to allow traffic to that port. This library allows you to:
